@@ -37,3 +37,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Apollo
 - Prettier
 - ESLint
+- Jest
+- Vue Test Utils
