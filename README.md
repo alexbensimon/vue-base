@@ -35,7 +35,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - TypeScript
 - Tailwind
 - Apollo
-
-* Prettier
-* Vetur
-* ESLint
+- Prettier
+- ESLint
