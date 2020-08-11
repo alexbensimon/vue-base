@@ -31,16 +31,33 @@
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-6">
       Button
     </button>
+    <pre>
+      {{pokemon}}
+    </pre>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import gql from 'graphql-tag'
 
 export default Vue.extend({
   name: 'HelloWorld',
   props: {
     msg: String,
+  },
+  apollo: {
+    pokemon: gql`query {
+      pokemon(name: "Pikachu") {
+        attacks {
+          special {
+            name
+            type
+            damage
+          }
+        }
+      }
+    }`,
   },
 });
 </script>

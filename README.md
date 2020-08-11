@@ -34,8 +34,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Yarn
 - TypeScript
 - Tailwind
+- Apollo
 
-* Apollo
 * Prettier
 * Vetur
 * ESLint
