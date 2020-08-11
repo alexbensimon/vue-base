@@ -33,9 +33,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Vue CLI
 - Yarn
 - TypeScript
+- Tailwind
 
 * Apollo
-* Tailwind
 * Prettier
 * Vetur
 * ESLint
